@@ -46,6 +46,6 @@ img1 = cv2.imread(path, flags=0)  #0 is for gray scale
 img1 = cv2.resize(img1, (560, 700))
 img1 = cv2.flip(img1, 1) #it accept 3 parameters 0,1,-1
 cv2.imshow('grayscale', img1)
-#cv2.imwrite("//home//gaurav//Documents//computer_vision//images//output.png", img1)
+cv2.imwrite("//home//gaurav//Documents//computer_vision//images//output.png", img1)
 cv2.waitKey()
 cv2.destroyAllWindows()
